@@ -1,0 +1,6 @@
+# infra-notes — Anggun Setiawan
+services:
+  app:
+    image: alpine:latest
+    command: ["echo", "up from anggun-setiawan80"]
+    restart: unless-stopped
